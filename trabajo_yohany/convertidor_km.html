@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript " src="js/convertidor_km.js"></script>
+    <link rel="stylesheet" href="css/convertidor_km.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--conversor de metros a km  decametros decimetros-->
+    <div class="container">
+        <form name="conversor">
+            <h2>convierte mt a km DM decimetros</h2>
+            <select id="converter_unidad">
+                <option>kilometros</option>
+                <option>decametros</option>
+                <option>decimetros</option>
+            </select>
+            <p>ingrese el numero en metros:</p>
+            <input type="number" name="numero_uno">
+            <p>resultado</p>
+            <input type="text" name="resultado_conversor" class="resultado">
+            <input type="button" onclick="converter_unidades()"  value="haz click aqui" class="boton">
+        </form>    
+    </div>
+</body>
+</html>

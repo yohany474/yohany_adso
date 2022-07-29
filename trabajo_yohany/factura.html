@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript " src="js/factura.js"></script>
+    <link rel="stylesheet" href="css/factura.css">
+    <title>Document</title>
+</head>
+<body>
+      <!--factura un producto-->
+      <div class="container">
+        <form name="factura">
+            <h2>factura un producto</h2>
+            <p>nombre del cliente</p>
+            <input type="text" name="cliente" id="cliente">
+            <p>producto</p>
+            <input type="text" name="name_producto" id="producto">
+            <p>codigo producto</p>
+            <input type="text" name="codigo">
+            <p>precio unitario</p>
+            <input type="text" name="precio">
+            <p>cantidad</p>
+            <input type="text" name="cantidad">
+            <h4>elije un metodo de pago de la siguiente lista</h4>
+            <select id="descuento">
+                <option>tipos de descuento</option> 
+                <option>20%descuento</option>
+                <option>5%descuento</option>
+                <option>tarjeta-credito</option>
+            </select>
+            <input type="button" onclick="facturaproducto()" value="generar factura" class="boton">
+            <p>cliente</p>
+            <input type="text" name="rcliente" class="resultado">
+            <p>producto</p>
+            <input type="text" name="rproducto" class="resultado">
+            <p>codigo</p>
+            <input type="text" name="rcodigo" class="resultado">
+            <p>precio</p>
+            <input type="text" name="rprecio" class="resultado">
+            <p>cantidad</p>
+            <input type="text" name="rcantidad" class="resultado">
+            <p>descuento aplicado</p>
+            <input type="text" name="rdescuento" class="resultado">
+            <p>valor final</p>
+            <input type="text" name="rvalorfinal" class="resultado">            
+        </form>
+    </div>
+   
+</body>
+</html>

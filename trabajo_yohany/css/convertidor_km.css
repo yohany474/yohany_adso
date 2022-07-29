@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    box-shadow: 2px 3px 3px 3px #979af9;
+    padding: 10px 10px;
+}
+.container form input{
+    margin-bottom: 5px;
+}
+.container form  h2{
+    text-align: center;
+}
+.container form p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+
+}
+.resultado{
+    background-color:#979af9;
+    border-radius: 44px;
+    padding: 2px;
+    font-size: 15px;
+    width: 100%;
+}
+.boton{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius:  15px ;
+    color: rgb(19, 120, 252);
+    font-size: 15px;
+    height: 30px;
+}

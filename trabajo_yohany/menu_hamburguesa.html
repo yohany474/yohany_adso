@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript " src="js/menu_hamburguesa.js""></script>
+    <link rel="stylesheet" href="css/menu_hamburguesa.css">
+    <title>Document</title>
+</head>
+<body>
+     <!---menu de hamburgeusaa-->
+     <div class="container">
+        <form name="hambur">
+         <h2>menu hamburguesa</h2>
+         <p>seleccione segun la quiera</p>
+         <select id="pan">
+            <option>tipo</option>
+            <option>con platano</option>
+            <option>con pan</option>
+        </select>
+        <select id="cebolla">
+            <option>elije</option>
+            <option>con cebolla</option>
+            <option>sin cebolla</option>
+        </select>
+        <select id="salsa">
+            <option>elije</option>
+            <option>con salsa</option>
+            <option>sin salsa</option>
+        </select>
+        <select id="ripi">
+            <option>elije</option>
+            <option>sin ripi</option>
+            <option>con ripi</option>
+        </select>
+        <input type="button" onclick="hamburguesa()" value="haz tu pedido" class="boton">
+        
+        <input type="text" name="pedido" size="30">
+        </form>
+     </div>  
+</body>
+</html>
